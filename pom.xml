@@ -18,23 +18,4 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
- <scm>        
-    <connection>scm:git:https://github.com/pkavyasree/samplemaven.git</connection>
- <developerConnection>scm:git:https://github.com/pkavyasree/samplemaven.git</developerConnection>
-    </scm>
-
-<build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-release-plugin</artifactId>
-                    <version>2.5.2</version>
-                    <configuration>
-                        <releaseProfiles>release</releaseProfiles>
-                    </configuration>
-                </plugin>               
-            </plugins>
-        </pluginManagement>
-    </build> 
 </project>
